@@ -13,12 +13,17 @@ $ sudo apt install jq
 ### Installation
 Download bash script or clone repository
 
-type `chmod +x` name of bash script`` into the terminal
-run file with bash using the directory path as a parameter.
+then in the terminal type the following commands 
+
+```
+$ chmod +x build-express-ts-app.sh
+
+$ bash build-express-ts-app.sh ./{projectDirectory}/
+```
 
 ### Usage
-Run `npm run build` to transpile typescript code in the src folder into the dist folder
-run `npm start` to start nodemon server
+Use `npm run build` to transpile typescript code from the `src` folder into the `dist` folder
 
+Use `npm start` to start nodemon server
 
-nodemon only runs off of the transpiled javascript code. The code must continuosly be rebuilt for the server to update.
+*nodemon only runs off of the transpiled javascript code in the `dist` folder. The code must be continuosly transpiled for the server to update.*
