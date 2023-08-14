@@ -21,7 +21,7 @@ fi
 cd "$dir_name"
 
 echo "Initializing npm project..."
-npm init -y
+npm init 
 
 echo "Installing necessary npm packages..."
 npm i typescript express
