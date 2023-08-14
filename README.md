@@ -13,7 +13,7 @@ $ sudo apt install jq
 ### Installation
 Download bash script or clone repository
 
-type `chmod +x `name of bash script`` into the terminal
+type `chmod +x` name of bash script`` into the terminal
 run file with bash using the directory path as a parameter.
 
 ### Usage
