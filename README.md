@@ -26,4 +26,4 @@ Use `npm run build` to transpile typescript code from the `src` folder into the 
 
 Use `npm start` to start nodemon server
 
-*nodemon only runs off of the transpiled javascript code in the `dist` folder. The code must be continuosly transpiled for the server to update.*
+*nodemon only runs off of the transpiled javascript code in the `dist` folder. The code must be continuosly transpiled using `npm run build` for the nodemon server to update.*
